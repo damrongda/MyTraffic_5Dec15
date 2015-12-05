@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //Sound Effecting
+                //Sound Effect
                 MediaPlayer buttonMediaPlayer = MediaPlayer.create(getBaseContext(), R.raw.bee);
                 buttonMediaPlayer.start();
 
