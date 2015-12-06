@@ -32,6 +32,9 @@ public class DetailActivity extends AppCompatActivity {
 
         titleTextView.setText(strTile);
         trafficImageView.setImageResource(intIcon);
+
+        String[] strDetail = getResources().getStringArray(R.array.detail_long);
+        detailTextView.setText(strDetail[intIndex]);
     }
 
     private void bindwidget() {
